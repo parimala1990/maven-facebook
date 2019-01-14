@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[=================Execution started=================]]>
+    </line>
+    <line>
+      <![CDATA[Execution ended]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24127" started-at="2019-01-14T09:46:43Z" finished-at="2019-01-14T09:47:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24127" started-at="2019-01-14T09:46:43Z" finished-at="2019-01-14T09:47:07Z">
+      <class name="com.facebookpage.Tests.LoginFacebook">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:com.facebookpage.Tests.LoginFacebook@954b04f]" name="Login" duration-ms="19416" started-at="2019-01-14T09:46:44Z" data-provider="FaceBookData" finished-at="2019-01-14T09:47:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[R5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HMSr5U$ER]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=================Execution started=================]]>
+            </line>
+            <line>
+              <![CDATA[Execution ended]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="TerarDown()[pri:0, instance:com.facebookpage.Tests.LoginFacebook@954b04f]" name="TerarDown" is-config="true" duration-ms="3840" started-at="2019-01-14T09:47:04Z" finished-at="2019-01-14T09:47:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TerarDown -->
+      </class> <!-- com.facebookpage.Tests.LoginFacebook -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
